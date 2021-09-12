@@ -5,7 +5,7 @@
 # Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=crystal-keyring
-pkgver=20211109
+pkgver=20211209
 pkgrel=1
 pkgdesc='Crystal Linux PGP keyring'
 arch=('any')
@@ -17,9 +17,9 @@ source=('Makefile'
         'crystal-revoked'
         'crystal-trusted')
 sha256sums=('5485de22cd25880ac4e7ea90745a538dabe87ba820e0bc6d449019dc6695b4d5'
-            'f1753e60fe6e475d2336d3788abb5f4e75108eed055fe6ffe02d6719ff892893'
-            '01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b'
-            'bb3a0a043b90ae107b8c76fc6f36cf4a4393eb55c3bdf0da0abd05af201a4980')
+            '78ab7c5c2c1c498fbb7dce9a1bb332bf4fa77904ad43c7c6dbaa48bfa69de182'
+            'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+            '925371a85881877bd593719acec284b7e9317b7428ed2746d4030a900fda92c0')
 
 package() {
   cd "${srcdir}"
