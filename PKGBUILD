@@ -1,11 +1,11 @@
 # Maintainer: jnats <jnats[at]salyut[dot]one>
-# Maintainer: foo <bar[at]baz[dot]qux>
+# Maintainer: matt <mdc[at]bucknell[dot]edu>
 
 # Arch credits:
 # Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=crystal-keyring
-pkgver=20211209
+pkgver=20212210
 pkgrel=1
 pkgdesc='Crystal Linux PGP keyring'
 arch=('any')
