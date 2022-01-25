@@ -17,9 +17,9 @@ source=('Makefile'
         'crystal-revoked'
         'crystal-trusted')
 sha256sums=('5485de22cd25880ac4e7ea90745a538dabe87ba820e0bc6d449019dc6695b4d5'
-            'd0a44af9f2513889298761213089c5cd1b8806033ca11f5de0999c06c181b56f'
+            '017bea9478eba0f238e329a494de846ef51600a5d3b50003c6e64b19e26a5975'
             'b67da0ef18d7182f6bb60295777d1ec676e73a6e00fa3a8cebc7a537bfe50164'
-            'eebb452126f60ce566f0208c9d7c857ddb5da1fa8c37251e58300638641c96f9')
+            '9bad96149a8d366976a085ed1a754168299cfa1412476667d8ab452496690199')
 
 package() {
   cd "${srcdir}"
