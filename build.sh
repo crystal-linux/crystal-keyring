@@ -1,11 +1,13 @@
 #!/bin/bash
 
+echo > crystal.gpg
+
 pushd pubkeys
 
-for key in matt amy michal; do
-	cat $key.gpg >> crystal.gpg
+for key in $(ls)
+do
+	echo $key
+	cat $key >> ../crystal.gpg
 done
-
-mv crystal.gpg ../
 
 popd
