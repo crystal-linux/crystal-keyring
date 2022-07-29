@@ -5,7 +5,7 @@
 # Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=crystal-keyring
-pkgver=20220207
+pkgver=20220729
 pkgrel=1
 pkgdesc='Crystal Linux PGP keyring'
 arch=('any')
