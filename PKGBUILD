@@ -12,6 +12,7 @@ arch=('any')
 url='https://getcryst.al'
 license=('GPL')
 install="${pkgname}.install"
+depends=('make')
 source=('Makefile'
         'crystal.gpg'
         'crystal-revoked'
