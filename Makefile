@@ -1,5 +1,3 @@
-V=20120504
-
 PREFIX = /usr/local
 
 install:
